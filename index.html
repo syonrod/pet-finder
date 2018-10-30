@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Pet Finder</title>
+</head>
+<body>
+    <header class="bg-light text-center mb-4 p-3">
+        <img style="width:50px" src="./assets/img/logo.png" alt="Pet Finder">
+    </header>
+
+    <div class="container">
+        <form id="pet-form">
+            <div class="form-group">
+                <label for="animal">Animal</label>
+                <select class="form-control form-control-lg mb-3" id="animal">
+                    <option value="cat">Cat</option>
+                    <option value="dog">Dog</option>
+                    <option value="bird">Bird</option>
+                    <option value="barnyard">Barnyard</option>
+                </select>
+                <label for="zip">Zipcode</label>
+                <input id="zip" type="text" class="form-control form-control-lg" placeholder="Canadian or American format only">
+                <input class="btn btn-dark btn-lg btn-block mt-3" type="submit" value="Find">
+            </div>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+
+
+
+
+
+
+<script src="./src/index.js"></script>
+</body>
+</html>
