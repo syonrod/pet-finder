@@ -1,2 +1,2 @@
 # http and https need separate rules if you don't force_ssl!
-https://frosty-leakey-348219.netlify.com/* http://frosty-leakey-348219.netlify.com:splat 301!
+https://frosty-leakey-348219.netlify.com/* http://frosty-leakey-348219.netlify.com:splat 200
